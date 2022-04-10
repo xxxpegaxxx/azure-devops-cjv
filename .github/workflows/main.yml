@@ -21,7 +21,3 @@ jobs:
       - name: Test with pytest
         run: |
           make test
-      
-      # Runs a single command using the runners shell
-      - name: Run the make hello command
-        run: make hello
